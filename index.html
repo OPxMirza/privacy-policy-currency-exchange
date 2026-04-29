@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="pageTitle"></title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 40px;
+            max-width: 800px;
+            color: #333;
+        }
+        h1, h2 {
+            color: #222;
+        }
+        p {
+            margin-bottom: 15px;
+        }
+        ul {
+            margin-left: 20px;
+        }
+        .container {
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Privacy Policy</h1>
+        <p><strong>Effective Date:</strong> <span id="date"></span></p>
+
+        <p>
+            This Privacy Policy applies to the mobile application 
+            <strong id="appName"></strong> ("App") developed and published by 
+            <strong id="companyName"></strong> on the Google Play Store.
+        </p>
+
+        <h2>1. Information Collection and Use</h2>
+        <p>
+            The App developed by <strong id="companyName2"></strong> does not collect, store, or share any personal information from users.
+        </p>
+
+        <p>We do not collect information such as:</p>
+        <ul>
+            <li>Name</li>
+            <li>Email address</li>
+            <li>Phone number</li>
+            <li>Location data</li>
+            <li>Device identifiers</li>
+        </ul>
+
+        <h2>2. Third-Party Services</h2>
+        <p>
+            The App does not use any third-party services that collect user data.
+        </p>
+        <p>
+            (If the App uses ads, analytics, or other services in the future, this Privacy Policy will be updated accordingly.)
+        </p>
+
+        <h2>3. Permissions</h2>
+        <p>
+            The App may request basic permissions only if required for core functionality. These permissions are not used to collect or share user data.
+        </p>
+
+        <h2>4. Children’s Privacy</h2>
+        <p>
+            The App is safe for users of all ages. We do not knowingly collect any personal information from children under 13.
+        </p>
+
+        <h2>5. Data Security</h2>
+        <p>
+            Since we do not collect or store user data, there is no risk of personal data being accessed, stored, or shared.
+        </p>
+
+        <h2>6. Changes to This Privacy Policy</h2>
+        <p>
+            We may update this Privacy Policy from time to time. Any changes will be posted on this page with an updated effective date.
+        </p>
+
+        <h2>7. Contact Us</h2>
+        <p>
+            If you have any questions or concerns about this Privacy Policy, you can contact us at:
+        </p>
+        <p>📧 <span id="email"></span></p>
+
+        <hr>
+        <p>
+            <strong>Summary:</strong> The App <strong id="appName2"></strong> developed by 
+            <strong id="companyName3"></strong> does not collect or share any user data.
+        </p>
+    </div>
+
+    <script>
+        // 🔥 CHANGE THESE VALUES FOR EACH APP
+        const APP_NAME = "FarmConnekt Uganda";
+        const COMPANY_NAME = "Bitlife Technologies";
+        const EMAIL = "ariangu@gmail.com";
+        const DATE = "April 28, 2026";
+
+        // Auto-fill everywhere
+        document.getElementById("pageTitle").innerText = "Privacy Policy - " + APP_NAME;
+        document.getElementById("appName").innerText = APP_NAME;
+        document.getElementById("appName2").innerText = APP_NAME;
+
+        document.getElementById("companyName").innerText = COMPANY_NAME;
+        document.getElementById("companyName2").innerText = COMPANY_NAME;
+        document.getElementById("companyName3").innerText = COMPANY_NAME;
+
+        document.getElementById("email").innerText = EMAIL;
+        document.getElementById("date").innerText = DATE;
+    </script>
+</body>
+</html>
